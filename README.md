@@ -1,5 +1,6 @@
 # BatMobile
-**Bachelor's degree thesis project in Mechatronics at KTH Royal Institute of Technology.**  
+**Bachelor's degree thesis project in Mechatronics at KTH Royal Institute of Technology.** 
+
 *Object tracking vehicle using ultrasonic sensors for autonomous following.*
 
 This project utilizes two **HY-SRF05** ultrasonic sensors to enable a 4-wheeled vehicle to track and follow a target. The system is powered by an **Arduino UNO R3**, two **Maxon DC motors**, and an **SG90 servo** for Ackermann steering. For detailed methodology and results, please refer to the full thesis: [Insert DiVA Link Here].
