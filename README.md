@@ -7,6 +7,7 @@ This project utilizes two HY-SRF05 ultrasonic sensors to enable a 4-wheeled vehi
 
 # Repository Structure
 /Batmobile
+
 This folder contains the Arduino Sketch. Open Batmobile.ino in the Arduino IDE to load the full project.
 
 Batmobile.ino: The primary entry point of the firmware. It handles pin assignments, system initialization (setup), and the core execution logic (loop).
@@ -18,6 +19,7 @@ Control.ino: Implements the control theory. It contains the PID-controller algor
 Actuator.ino: The hardware abstraction layer. Defines functions to drive the two Maxon DC motors and the SG90 steering servo.
 
 /MatLab
+
 Scripts used for post-experimental data analysis and visualization.
 
 GraphData.m: Used to plot raw sensor data, low-pass filtered signals, control outputs, and loop timing for individual test runs.
