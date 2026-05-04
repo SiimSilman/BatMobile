@@ -9,7 +9,8 @@ This project utilizes two **HY-SRF05** ultrasonic sensors to enable a 4-wheeled 
 ## Repository Structure
 
 ### /Batmobile
-*This folder contains the Arduino Sketch. Open `Batmobile.ino` in the Arduino IDE to load the full project.*
+
+*To run the firmware, the entire `Arduino` folder must be downloaded and kept intact. Opening the primary file, `Batmobile.ino`, within the Arduino IDE will automatically load and link the associated files containing the system's modular logic.*
 
 * **`Batmobile.ino`**: The primary entry point of the firmware. It handles pin assignments, system initialization (`setup`), and the core execution logic (`loop`).
 * **`Sensor.ino`**: Manages data acquisition from the ultrasonic sensors. Includes trigger/echo logic, signal processing via a low-pass filter, and safety-related distance checks.
