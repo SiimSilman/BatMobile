@@ -5,8 +5,9 @@ Object tracking vehicle using ultrasonic sensors for autonomous following.
 
 This project utilizes two HY-SRF05 ultrasonic sensors to enable a 4-wheeled vehicle to track and follow a target. The system is powered by an Arduino UNO R3, two Maxon DC motors, and an SG90 servo for Ackermann steering. For detailed methodology and results, please refer to the full thesis: [Insert DiVA].
 
-# Repository Structure
-/Batmobile
+## Repository Structure
+
+### /Batmobile
 
 This folder contains the Arduino Sketch. Open Batmobile.ino in the Arduino IDE to load the full project.
 
@@ -18,7 +19,7 @@ Control.ino: Implements the control theory. It contains the PID-controller algor
 
 Actuator.ino: The hardware abstraction layer. Defines functions to drive the two Maxon DC motors and the SG90 steering servo.
 
-/MatLab
+### /MatLab
 
 Scripts used for post-experimental data analysis and visualization.
 
@@ -26,7 +27,7 @@ GraphData.m: Used to plot raw sensor data, low-pass filtered signals, control ou
 
 GraphResult.m: Aggregates data from ten separate trials across two test scenarios. It calculates and visualizes the mean, standard deviation, and grand mean to evaluate system performance.
 
-# Dependencies
+## Dependencies
 Servo.h: The Batmobile.ino sketch requires the standard Arduino Servo library to manage the PWM signals for the steering actuator.
 
 # Authors
