@@ -15,7 +15,7 @@ This project utilizes two **HY-SRF05** ultrasonic sensors to enable a 4-wheeled 
 
 * **`Batmobile.ino`**: The primary entry point of the firmware. It handles pin assignments, system initialization (`setup`), and the core execution logic (`loop`).
 * **`Sensor.ino`**: Manages data acquisition from the ultrasonic sensors. Includes trigger/echo logic, signal processing via a low-pass filter, and safety-related distance checks.
-* **`Control.ino`**: Implements the control theory. It contains the PID-controller algorithms that process sensor feedback into actionable control signals for longitudinal movement.
+* **`Control.ino`**: Implements the control theory. It contains the PID-controller algorithms that process sensor feedback into actionable control signals for movement.
 * **`Actuator.ino`**: The hardware abstraction layer. Defines functions to drive the two Maxon DC motors and the SG90 steering servo.
 
 ### /MatLab
